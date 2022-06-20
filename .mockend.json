@@ -1,10 +1,9 @@
 {
-  "Login": {
+  "Post": {
     "success": { "boolean": {} },
     "title": { "string": {} },
-    "message": { "string": {} }
-      "token": { "string": {} },
-    "errors": { "string": {} }
-    
+    "message": { "string": {} },
+    "data": { "string": {} },
+    "errors": { "string": {} },
   }
 }
