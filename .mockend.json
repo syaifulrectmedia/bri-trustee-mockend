@@ -2,9 +2,9 @@
   "Login": {
     "status": { "boolean": {} },
     "data": [
-      "user":{
-      "hasMany": "User"
-    },
+      "name": { "string": {} },
+      "active": { "boolean": {} },
+      "password": { "string": {} },
     ]
     "message": { "string": {} }
   },
