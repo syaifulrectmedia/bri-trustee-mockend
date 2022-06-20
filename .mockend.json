@@ -3,9 +3,7 @@
     "success": { "boolean": {} },
     "title": { "string": {} },
     "message": { "string": {} }
-    "data": {
-      "token": { "string": {} }
-    },
+      "token": { "string": {} },
     "errors": { "string": {} }
     
   }
