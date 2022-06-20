@@ -1,5 +1,5 @@
 {
-  "Data": {
+  "Login": {
     "status": { "boolean": {} },
     "data": {
       "hasMany": "User"
@@ -7,8 +7,9 @@
   },
   "User": {
     "name": { "string": {} },
-    "data": {
-      "belongsTo": "Data"
+    "active": { "boolean": {} },
+    "login": {
+      "belongsTo": "Login"
     }
   }
 }
