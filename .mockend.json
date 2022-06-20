@@ -1,14 +1,14 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+  "Data": {
+    "status": { "boolean": {} },
+    "data": {
+      "hasMany": "User"
     }
   },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
+  "User": {
+    "name": { "string": {} },
+    "data": {
+      "belongsTo": "Data"
     }
   }
 }
