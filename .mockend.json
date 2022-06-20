@@ -1,12 +1,15 @@
 {
   "Login": {
     "status": { "boolean": {} },
-    "data": [
+    "data": {
       "name": { "string": {} },
       "active": { "boolean": {} },
-      "password": { "string": {} },
-    ]
-    "message": { "string": {} }
+      "password": { "string": {} }
+    }
+    "message": { "string": {} },
+    "user": {
+      "hasMany": "User"
+    }
   },
   "User": {
     "name": { "string": {} },
