@@ -7,8 +7,5 @@
       "password": { "string": {} }
     }
     "message": { "string": {} },
-    "user": {
-      "hasMany": "User"
-    }
   }
 }
