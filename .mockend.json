@@ -1,9 +1,12 @@
 {
   "Post": {
+    "succes": { "boolean": {} },
     "title": { "string": {} },
+    "message": { "string": {} },
     "comments": {
       "hasMany": "Comment"
-    }
+    },
+    "errors": { "string": {} }
   },
   "Comment": {
     "body": { "string": {} },
