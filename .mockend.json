@@ -3,11 +3,13 @@
     "status": { "boolean": {} },
     "data": {
       "hasMany": "User"
-    }
+    },
+    "message": { "string": {} },
   },
   "User": {
     "name": { "string": {} },
     "active": { "boolean": {} },
+    "password": { "string": {} },
     "login": {
       "belongsTo": "Login"
     }
