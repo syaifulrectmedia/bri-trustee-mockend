@@ -10,5 +10,8 @@
     "name": { "string": { "minLength": 3, "maxLength": 10 } },
     "active": { "boolean": {} },
     "picture": { "regexp": "https://…" }
+    "login": {
+      "belongsTo": "Login"
+    }
   }
 }
