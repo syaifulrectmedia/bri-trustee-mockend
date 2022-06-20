@@ -1,17 +1,17 @@
 {
-  "Post": {
+  "Login": {
     "succes": { "boolean": {} },
     "title": { "string": {} },
     "message": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+    "data": {
+      "hasMany": "Token"
     },
     "errors": { "string": {} }
   },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
+  "Token": {
+    "token": { "string": {"min": 50, "max": 50} },
+    "login": {
+      "belongsTo": "Login"
     }
   }
 }
