@@ -10,13 +10,5 @@
     "user": {
       "hasMany": "User"
     }
-  },
-  "User": {
-    "name": { "string": {} },
-    "active": { "boolean": {} },
-    "password": { "string": {} },
-    "login": {
-      "belongsTo": "Login"
-    }
   }
 }
