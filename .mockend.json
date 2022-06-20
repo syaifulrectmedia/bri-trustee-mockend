@@ -1,9 +1,7 @@
 {
-  "Login": {
     "succes": { "boolean": {} },
     "title": { "string": {} },
     "message": { "string": {} },
     "token": { "string": {"min": 50, "max": 50} },
     "errors": { "string": {} }
-  }
 }
