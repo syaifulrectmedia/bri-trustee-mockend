@@ -1,5 +1,14 @@
 {
+  "Login": {
+    "status": { "boolean": {} },
+    "data":{
+      "hasMany": "User"
+    }
+  },
   "User": {
-    "title": { "string": {} }
+    "email": { "string": {"@mail.com"},
+    "name": { "string": { "minLength": 3, "maxLength": 10 } },
+    "active": { "boolean": {} },
+    "picture": { "regexp": "https://…" }
   }
 }
