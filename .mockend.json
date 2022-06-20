@@ -1,11 +1,11 @@
 {
   "Login": {
     "status": { "boolean": {} },
-    "data": [{
+    "data": {
       "name": { "string": {} },
       "active": { "boolean": {} },
       "password": { "string": {} }
-    }]
+    },
     "message": { "string": {} }
   }
 }
