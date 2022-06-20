@@ -4,7 +4,7 @@
     "data": {
       "hasMany": "User"
     },
-    "message": { "string": {} },
+    "message": { "string": {} }
   },
   "User": {
     "name": { "string": {} },
