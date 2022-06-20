@@ -1,7 +1,7 @@
 {
   "Login": {
     "status": { "boolean": {} },
-    "data":{
+    "user":{
       "hasMany": "User"
     }
   },
