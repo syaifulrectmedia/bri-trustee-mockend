@@ -1,11 +1,12 @@
 {
   "Login": {
-    "status": { "boolean": {} },
-    "data": {
-      "name": { "string": {} },
-      "active": { "boolean": {} },
-      "password": { "string": {} }
-    },
+    "success": { "boolean": {} },
+    "title": { "string": {} },
     "message": { "string": {} }
+    "data": {
+      "token": { "string": {} }
+    },
+    "errors": { "string": {} }
+    
   }
 }
