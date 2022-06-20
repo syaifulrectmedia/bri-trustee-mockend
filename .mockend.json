@@ -1,5 +1,4 @@
 {
-  {
   "Post": {
     "title": { "string": {} },
     "comments": {
@@ -11,12 +10,5 @@
     "post": {
       "belongsTo": "Post"
     }
-  },
-  "Login": {
-    "success": { "boolean": {} },
-    "title": { "string": {} },
-    "message": { "string": {} },
-    "data": { "string": {} },
-    "errors": { "string": {} },
   }
 }
