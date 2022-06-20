@@ -1,9 +1,11 @@
 {
   "Login": {
     "status": { "boolean": {} },
-    "data": {
+    "data": [
+      "user":{
       "hasMany": "User"
     },
+    ]
     "message": { "string": {} }
   },
   "User": {
