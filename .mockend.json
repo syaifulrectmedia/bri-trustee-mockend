@@ -6,7 +6,7 @@
     }
   },
   "User": {
-    "email": { "string": {"@mail.com"},
+    "email": { "string": {},
     "name": { "string": { "minLength": 3, "maxLength": 10 } },
     "active": { "boolean": {} },
     "picture": { "regexp": "https://…" }
