@@ -6,6 +6,6 @@
       "active": { "boolean": {} },
       "password": { "string": {} }
     }]
-    "message": { "string": {} },
+    "message": { "string": {} }
   }
 }
