@@ -3,15 +3,7 @@
     "succes": { "boolean": {} },
     "title": { "string": {} },
     "message": { "string": {} },
-    "data": {
-      "hasMany": "Token"
-    },
-    "errors": { "string": {} }
-  },
-  "Token": {
     "token": { "string": {"min": 50, "max": 50} },
-    "login": {
-      "belongsTo": "Login"
-    }
+    "errors": { "string": {} }
   }
 }
